@@ -25,7 +25,7 @@ stages:
   - job: Archive
     displayName: Archive
     pool:
-      vmImage: $(vmImageName)
+      name: 'default'
     steps:   
     - task: AzureAppServiceSettings@1
       inputs:
@@ -58,7 +58,7 @@ stages:
     displayName: Deploy
     environment: $(environmentName)
     pool:
-      vmImage: $(vmImageName)
+      name: 'default'
     strategy:
       runOnce:
         deploy:
