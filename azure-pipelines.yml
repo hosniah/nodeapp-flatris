@@ -12,7 +12,7 @@ variables:
   webAppName: 'LinuxApp56011'
   
   # Resource group
-  resourceGroupName: 'Linux56011RG'
+  resourceGroupName: 'linuxapp56011_group'
   # Environment name
   environmentName: 'LinuxApp56011'
   # Agent VM image name
