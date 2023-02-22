@@ -6,7 +6,7 @@ trigger:
 - master
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureSubscription: 'MSDN Platforms Subscription'
+  azureSubscription: 'myazurecon'
   
   # Web app name
   webAppName: 'LinuxApp56011'
